@@ -5,7 +5,7 @@ document.getElementById("formulario").addEventListener("submit", function(event)
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
 
-    alert(`Seja Bem Vindo : ${nome}\nSeu E-mail de contato é : ${email}\nE sua senha de acesso é : ${password}`);
+    alert(`Seja Bem Vindo : ${name}\nSeu E-mail de contato é : ${email}\nE sua senha de acesso é : ${password}`);
 
     this.reset();
 

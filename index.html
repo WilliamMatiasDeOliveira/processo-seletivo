@@ -15,12 +15,12 @@
 <body>
 
     <div class="container">
-        <div class="d-flex flex-column align-items-center">
+        <div class="row d-flex flex-column align-items-center">
             <div class="col-10 col-sm-8 col-md-6 col-lg-4">
                 <div class="logo text-center mb-4 mt-3">
                     <img src="imgs/logo-integrale.png" class="img-fluid" alt="Logo da integrale">
                 </div>
-                <form action="#" method="post"id="formulario">
+                <form action="#" method="post"id="formulario"class="formulario shadow">
                     <label for="name" class="form-label">Nome</label>
                     <input type="text" name="name" id="name" class="form-control mb-3" placeholder="Nome"required>
                     <label for="email" class="form-label">E-mail</label>
@@ -28,13 +28,17 @@
                     <label for="password" class="form-label">Senha</label>
                     <input type="password" name="password" id="password" class="form-control mb-3"placeholder="Senha" required>
                     <input type="submit"value="Cadastrar"class="button mt-3">
+
+                    <div class="link">
+                        <a href="esqueci-a-senha.html">Esqueceu a Senha ?</a>
+                    </div>
                 </form>
             </div>
         </div>
     </div>
 
 
-<script src="js/script.js"></script>
+<script src="js/script-formulario.js"></script>
 </body>
 
 </html>

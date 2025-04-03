@@ -1,12 +1,12 @@
 
 .logo{
-    width: 80%;
+    width: 50%;
     margin-bottom: 15px;
     margin: 0 auto;
     
 }
 
-form{
+.formulario{
     padding: 20px 50px;
     border: 1px solid rgba(160, 160, 160, 0.5);
     border-radius: 15px;
@@ -33,4 +33,21 @@ form{
     background-color: #449ba7;
 }
 
+.link{
+    margin-top: 25px;
+}
+
+.link a{
+    color: #64c3cf;
+    font-weight: 500;
+}
+
+/* *****************************************************************
+        PAGTINA ESQUECI MINHA SENHA
+**********************************************************************/
+
+.texto{
+    color: #64c3cf;
+    font-weight: bold;
+}
 
