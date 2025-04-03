@@ -1,0 +1,36 @@
+
+.logo{
+    width: 80%;
+    margin-bottom: 15px;
+    margin: 0 auto;
+    
+}
+
+form{
+    padding: 20px 50px;
+    border: 1px solid rgba(160, 160, 160, 0.5);
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.form-label{
+    color: #64c3cf;
+    font-weight: bold;
+}
+
+
+.button{
+    background-color: #64c3cf;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: #449ba7;
+}
+
+
